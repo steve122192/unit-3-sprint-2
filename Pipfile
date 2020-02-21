@@ -11,6 +11,8 @@ python-dotenv = "*"
 psycopg2 = "*"
 pandas = "*"
 sqlalchemy = "*"
+pymongo = "*"
+dnspython = "*"
 
 [requires]
 python_version = "3.7"

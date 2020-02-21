@@ -49,11 +49,11 @@ for character in characters:
   insert_character = """
     INSERT INTO characters
     (name, level, exp, hp, strength, intelligence, dexterity, wisdom)
-    VALUES """ + str(character[1:]) + ';'
-  # print(insert_character)
-  cursor.execute(insert_character)
+    VALUES """ + str(character[0:]) + ';'
+print(insert_character)
+  #cursor.execute(insert_character)
   
-connection.commit()
+#connection.commit()
 
 
 
